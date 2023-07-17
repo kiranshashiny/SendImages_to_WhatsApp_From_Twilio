@@ -14,7 +14,7 @@ Installed Ngrok and ran the ./ngrok http 80 to get the below decrypted address a
 
 ```
 
-curl 'https://api.twilio.com/2010-04-01/Accounts/AC83bd97a531ec5505a519e10f9953edde/Messages.json' -X POST \
+curl 'https://api.twilio.com/2010-04-01/Accounts/YOUR_TWILIO_ACCOUT_SID/Messages.json' -X POST \
 --data-urlencode 'To=whatsapp:+919845691854' \
 --data-urlencode 'From=whatsapp:+1415<YOUR_TWILIO_ASSIGNED_INTERNATIONAL_NUMBER_HERE>' \
 --data-urlencode 'Body=Hello 17Jul 2023' \
@@ -45,4 +45,12 @@ Some Twilio Snapshots
 How to send messages from Twilio Console.
 
 ![image](https://github.com/kiranshashiny/SendImages_to_WhatsApp_From_Twilio/assets/14288989/45c92390-5efe-4095-beeb-2a4391189b58)
+
+
+
+
+
+To send a SMS, autofill data and fill in the text
+
+![image](https://github.com/kiranshashiny/SendImages_to_WhatsApp_From_Twilio/assets/14288989/00afe456-4af3-445c-bbdc-19b39027b90f)
 
