@@ -1,4 +1,4 @@
-# SendImages_to_WhatsApp_From_Twilio
+# Send_Images/Media_From_Local_Folder_to_your_WhatsApp_From_Twilio
 
 Here is the code to send the image stored on the local device to WhatsApp  using Twilio.
 
@@ -19,7 +19,7 @@ curl 'https://api.twilio.com/2010-04-01/Accounts/AC83bd97a531ec5505a519e10f9953e
 --data-urlencode 'From=whatsapp:+1415<YOUR_TWILIO_NUMBER_HERE>' \
 --data-urlencode 'Body=Hello 17Jul 2023' \
 --data-urlencode 'MediaUrl=https://<DECRYPTED ADDRESS OF THE NGROK UTILITY>.ngrok-free.app/logo.png' \
--u AC83bd97a531ec5505a519e10f9953edde:faf10cee6be7f370ff44d2e60e713789
+-u TWILIO_TOKEN
 
 ```
 
